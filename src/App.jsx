@@ -9,7 +9,7 @@ import './global.css';
 
 function App() {
   const localStorageData = JSON.parse(localStorage.getItem('expenses'));
-  const [expenses, setExpenses] = useState(localStorageData || '');
+  const [expenses, setExpenses] = useState(localStorageData || []);
   const [total, setTotal] = useState(0);
 
   function addExpenseHandler(name, amount, date) {
