@@ -1,0 +1,32 @@
+.li {
+  background-color: rgb(31, 91, 143);
+  color: white;
+  padding: 1rem;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  /* display: flex; */
+}
+
+.expense-name {
+  margin-bottom: 0.4rem;
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+.expense-date {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.expense-amount {
+  font-size: 1.4rem;
+}
+
+.btn-delete {
+  margin-left: auto;
+  padding: 0.4rem 1rem;
+}
